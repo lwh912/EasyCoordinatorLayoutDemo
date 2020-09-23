@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/et_tool_height"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:text="50"
+        android:digits="0123456789"
+        android:textColor="#333333"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:layout_height="50dp"
+        />
+    <EditText
+        android:id="@+id/et_tag_height"
+        android:padding="5dp"
+        android:text="50"
+        android:digits="0123456789"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:textColor="#333333"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:layout_height="50dp"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="跳转"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <com.lwh912.easycoordinatorlayout.EasyTagCorrdinatorLayout
+        android:id="@+id/easy_tag_coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/ll_tool"
+            android:tag="easy_corrdinator_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:background="#9264a5"
+            >
+            <TextView
+                android:id="@+id/tv_ll_tagbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tagbar"
+            android:tag="easy_corrdinator_tagbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="#ff5500"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="这是一个悬停的view,可以xml进行布局"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+
+    </com.lwh912.easycoordinatorlayout.EasyTagCorrdinatorLayout>
+
+
+</LinearLayout>

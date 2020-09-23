@@ -26,7 +26,7 @@ public class DemoActivity extends FragmentActivity implements ViewPager.OnPageCh
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_test_my5);
+        setContentView(R.layout.activity_demo);
         Util.setNavigationBarLucency((Activity) getActivity(),null);
         initView();
     }

@@ -36,7 +36,7 @@ public class ChildFragment extends Fragment {
             }
         } else {
             isRootViewCreated = false;
-            rootView = inflater.inflate(R.layout.fragment_test_4, container, false);
+            rootView = inflater.inflate(R.layout.fragment_child, container, false);
         }
         initialize();
         return rootView;
